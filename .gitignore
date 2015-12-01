@@ -14,3 +14,34 @@ cabal.sandbox.config
 *.prof
 *.aux
 *.hp
+
+# Ignore stupid files created by OSX
+._*
+.DS_Store
+
+#Volume edited files
+.nfs.*
+
+# Emacs back up files
+*~
+
+# Ignore python compiled files
+*.pyc
+
+# Ignore vim auto files
+*.swp
+.*.un~
+
+# Ignore PHPStorm IDE settings
+.idea/*
+
+# Ignore REVISION file
+REVISION
+
+# Ignore input files
+input.txt
+
+*.o
+
+*.hi
+>>>>>>> Day 1 in Python and Haskell
